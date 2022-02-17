@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
 * Студент: [Ilya Gostev](https://up.htmlacademy.ru/javascript/25/user/1042839).
-* Наставник: `Неизвестно`.
+* Наставник: `Сергей Рожков`(https://htmlacademy.ru/profile/id1069033).
 
 ---
 
