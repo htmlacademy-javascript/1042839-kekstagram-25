@@ -9,14 +9,9 @@ function getRandomNumber (minNumber, maxNumber) {
 }
 getRandomNumber(0, 100);
 
-//функция определяющая максимальную длинну строки в комментариях
+//функция определяющая максимальную длину строки в комментариях
 //Максимальная длина комментария 140 символов
 
-function getMaxComment (string, maxSumbol) {
-  if (string <= maxSumbol) {
-    return true;
-  }
-  return false;
-}
+const getMaxComment = (commentLength, maxSumbol) => commentLength <= maxSumbol;
 
 getMaxComment (0, 140);
