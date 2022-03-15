@@ -26,16 +26,11 @@ const NAMES = ['Анна',
   'Игорь',
   'Степан'
 ];
-
-const COMMENTS_COUNT = 25;
-
 const MIN_NUMBER_LIKES = 15;
 const MAX_NUMBER_LIKES = 200;
 
 const MIN_NUMBER_COMMENTS = 0;
 const MAX_NUMBER_COMMENTS = 6;
-
-generateData(COMMENTS_COUNT);
 
 function generateData(count) {
   const result = [];
@@ -79,3 +74,6 @@ function getRandomArrayElement(list) {
   const randomIndex = getRandomNumber(0, list.length - 1);
   return list[randomIndex];
 }
+
+export {generateData};
+export {generateComments};
